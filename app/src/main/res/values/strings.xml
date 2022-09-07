@@ -26,6 +26,6 @@
     <string name="edit">EDIT</string>
     <string name="edit_message">Edit feature is not supported</string>
     <string name="refresh">Refresh</string>
-
+    <string name="banner_id">myTestBannerid12345</string>
 
 </resources>

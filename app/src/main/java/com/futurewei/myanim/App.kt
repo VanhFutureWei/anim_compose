@@ -7,6 +7,7 @@ import android.util.Log
 
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
+import com.huawei.hms.ads.HwAds
 
 class App: Application() {
     override fun onCreate() {
@@ -14,6 +15,7 @@ class App: Application() {
         appResources = resources
         val devKey = "AF_DEV_KEY"
 
+        HwAds.init(this)
 
 //        set single Dashboard third party store name here:
 //        The value set here appears in AppsFlyer raw data install_app_store field and in
